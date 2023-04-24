@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    border:none;
+}
+#hami{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center; 
+    gap: 30px;
+    .yuxari{
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        height: 500px;
+        width: 400px;
+border: 1px solid;
+border-radius:10px ;
+#img{
+    height: 500px;
+    width: 400px;
+    border-radius: 10px;
+border-radius:10px ;
+}
+    }
+    .asaqi{
+        height: 200px;
+        width: 800px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 35px;
+        .img1{
+            cursor: pointer;
+height: 150px;
+width: 200px;
+border-radius:10px ;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+&:hover{
+    transform: scale(1.3);
+    transition: 0.5s;
+        }
+    }
+        .img2{
+            cursor: pointer;
+            height: 150px;
+            width: 200px;
+border-radius:10px ;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+&:hover{
+    transition: 0.5s;
+    transform: scale(1.3);
+}
+        }
+        .img3{
+            cursor: pointer;
+            height: 150px;
+            width: 200px;
+border-radius:10px ;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+&:hover{
+    transition: 0.5s;
+    transform: scale(1.3);
+}
+        }
+    }
+    }
